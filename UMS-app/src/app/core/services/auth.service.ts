@@ -32,7 +32,7 @@ export class AuthService {
     return this.isAuthenticated;
   }
 
-  gerRole(): 'admin' | 'user' {
+  getRole(): 'admin' | 'user' {
     return this.userRole;
   }
 }
